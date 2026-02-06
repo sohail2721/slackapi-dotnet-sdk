@@ -38,7 +38,7 @@ namespace SlackWebApi.Standard
 
         private readonly GlobalConfiguration globalConfiguration;
         private SdkLoggingConfiguration sdkLoggingConfiguration;
-        private const string userAgent = "DotNet-SDK/1.0.0 [OS: {os-info}, Engine: {engine}/{engine-version}]";
+        private const string userAgent = "DotNet-SDK/1.0.1 [OS: {os-info}, Engine: {engine}/{engine-version}]";
         private readonly HttpCallback httpCallback;
         private readonly Lazy<AdminAppsController> adminApps;
         private readonly Lazy<AdminAppsApprovedController> adminAppsApproved;
